@@ -1,0 +1,15 @@
+import:
+  copy: yes  # Do not copy files; organize in place.
+  write: yes  # Write metadata to files.
+  move: yes  # Move files to library directory.
+  autotag: yes  # Automatically tag files based on filenames.
+  quiet_fallback: skip  # Skip files with no metadata.
+
+
+plugins:
+  - fetchart
+  - embedart
+  - chroma
+
+fetchart:
+    auto: yes

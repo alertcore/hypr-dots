@@ -1,0 +1,106 @@
+* {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+}
+#waybar {
+  background: transparent;
+  color: #eeeeef;
+  font-size: 20px;
+  font-family: "FiraCode Nerd Font";
+}
+
+#workspaces button {
+  padding: 0 5px;
+  color: #eeeeef;
+  padding-left: 0px;
+}
+/* Fix: active workspace doesn't show up */
+/* #workspaces button.focused { */
+#workspaces button.active {
+  color: #929db1;
+}
+
+#custom-powermenu,
+#cpu,
+#temperature,
+#memory,
+#workspaces,
+#clock,
+#window,
+#pulseaudio,
+#custom-updates,
+#battery,
+#network {
+  padding: 4px 8px;
+  background-color: #303643;
+  border-radius: 10px;
+  margin-top: 2px;
+  margin-bottom: 7px;
+}
+
+#window {
+  color: #929db1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#tray {
+  margin-left: 4px;
+  margin-bottom: 7px;
+}
+
+#custom-updates {
+  color: #929db1;
+  margin-left: 6px;
+}
+
+#custom-powermenu {
+  color: #929db1;
+  padding-right: 11px;
+  margin-right: 8px;
+  margin-left: 6px;
+}
+
+#scratchpad {
+  color: #cffafe;
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+#pulseaudio {
+  color: #929db1;
+  padding-right: 14px;
+  margin-left: 4px;
+}
+
+#battery {
+  color: #929db1;
+}
+
+#cpu {
+  color: #61afef;
+}
+
+#temperature {
+  color: #98c379;
+}
+
+#memory {
+  color: #e5c07b;
+}
+
+#network {
+  color: #c678dd;
+  min-width: 200px;
+}
+
+#clock {
+  color: #fff;
+  margin-left: 8px;
+  margin-right: 6px;
+  /* opacity: 0.7; */
+  /* font-size: 18px; */
+}
