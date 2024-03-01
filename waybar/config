@@ -5,12 +5,12 @@
     "modules-left": [
       "clock",
       "hyprland/workspaces",
-      "tray",
       ],
     "modules-center": [
       "hyprland/window",
       ],
     "modules-right": [
+      "tray",
       "battery",
       "pulseaudio",
       "custom/powermenu",
@@ -68,10 +68,11 @@
       }
     },
     "network": {
-      "interface": "enp34s0",
+      "interface": "wlp1s0",
       "tooltip-format-ethernet": "{ifname} ",
       "interval": 2,
-      "format": " {bandwidthDownBits}  {bandwidthUpBits}",
+      "format": "",
+      "on-click": "exec nm-applet"
     },
     "temperature": {
       "format": "{icon} {temperatureC}°C",

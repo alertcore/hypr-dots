@@ -33,7 +33,8 @@
 #pulseaudio,
 #custom-updates,
 #battery,
-#network {
+#network,
+#tray {
   padding: 4px 8px;
   background-color: #303643;
   border-radius: 10px;
@@ -48,7 +49,9 @@
 }
 
 #tray {
+  color: #929db1;
   margin-left: 4px;
+  margin-right: 4px;
   margin-bottom: 7px;
 }
 
@@ -93,7 +96,7 @@
 }
 
 #network {
-  color: #c678dd;
+  color: #929db1;
   min-width: 200px;
 }
 
