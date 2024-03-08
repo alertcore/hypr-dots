@@ -7,7 +7,6 @@
 }
 #waybar {
   background: transparent;
-  color: #eeeeef;
   font-size: 20px;
   font-family: "FiraCode Nerd Font";
 }
@@ -43,7 +42,7 @@
 }
 
 #window {
-  color: #929db1;
+  color: #dddddd;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -61,7 +60,7 @@
 }
 
 #custom-powermenu {
-  color: #929db1;
+  color: #dddddd;
   padding-right: 11px;
   margin-right: 8px;
   margin-left: 6px;
@@ -74,13 +73,13 @@
 }
 
 #pulseaudio {
-  color: #929db1;
+  color: #dddddd;
   padding-right: 14px;
   margin-left: 4px;
 }
 
 #battery {
-  color: #929db1;
+  color: #dddddd;
 }
 
 #cpu {
@@ -101,9 +100,7 @@
 }
 
 #clock {
-  color: #fff;
+  color: #dddddd;
   margin-left: 8px;
   margin-right: 6px;
-  /* opacity: 0.7; */
-  /* font-size: 18px; */
 }

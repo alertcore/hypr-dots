@@ -5,5 +5,5 @@ swww init
 swww clear
 sleep 1
 lua ~/wallpaper/script/wallpaper.lua
-sleep 1
+sleep 3
 waybar
