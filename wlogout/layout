@@ -1,0 +1,30 @@
+{
+    "label" : "lock",
+    "action" : "sleep 1; hyprlock",
+    "keybind" : "l"
+}
+{
+    "label" : "hibernate",
+    "action" : "sleep 1; systemctl hibernate",
+    "keybind" : "h"
+}
+{
+    "label" : "logout",
+    "action" : "$HOME/dotfiles/hypr/scripts/exit.sh",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "sleep 1; systemctl poweroff",
+    "keybind" : "s"
+}
+{
+    "label" : "suspend",
+    "action" : "sleep 1; systemctl suspend",
+    "keybind" : "u"
+}
+{
+    "label" : "reboot",
+    "action" : "sleep 1; systemctl reboot",
+    "keybind" : "r"
+}
