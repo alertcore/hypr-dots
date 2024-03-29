@@ -13,12 +13,14 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	"hrsh7th/nvim-cmp",
+	"hrsh7th/cmp-nvim-lsp",
 	"nvim-tree/nvim-tree.lua",
 	"catppuccin/nvim",
 	"williamboman/mason.nvim",
 	"williamboman/mason-lspconfig.nvim",
 	"neovim/nvim-lspconfig",
 	"nvim-lualine/lualine.nvim",
+	"L3MON4D3/LuaSnip",
 
 	{
     		'nvim-telescope/telescope.nvim',
