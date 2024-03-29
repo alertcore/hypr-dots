@@ -15,6 +15,7 @@ require("lazy").setup({
 	"hrsh7th/nvim-cmp",
 	"hrsh7th/cmp-nvim-lsp",
 	"nvim-tree/nvim-tree.lua",
+	"nvim-tree/nvim-web-devicons",
 	"catppuccin/nvim",
 	"williamboman/mason.nvim",
 	"williamboman/mason-lspconfig.nvim",
@@ -33,7 +34,7 @@ require("lazy").setup({
 
 	{
     		'folke/which-key.nvim',
-    		event = 'VimEnter', 
+    		event = 'VimEnter',
 		config = function()
 			require('which-key').setup()
 		end
