@@ -24,6 +24,8 @@ require("lazy").setup({
 	"neovim/nvim-lspconfig",
 	"nvim-lualine/lualine.nvim",
 	"L3MON4D3/LuaSnip",
+	"saadparwaiz1/cmp_luasnip",
+	"rafamadriz/friendly-snippets",
 
 	{
     		'nvim-telescope/telescope.nvim',
