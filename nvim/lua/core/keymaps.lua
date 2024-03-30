@@ -20,7 +20,7 @@ keymap("<leader>sl", "<cmd>Telescope current_buffer_fuzzy_find<CR>", "Fuzzy Find
 --file keymaps
 keymap("<leader>fs", "<cmd>:w<CR>", "Write Current Buffer")
 keymap("<leader>fx", "<cmd>:wq<CR>", "Write-Quit Current Buffer")
-keymap("<leader>fq", "<cmd>:q!<CR>", "Quit! nvim")
+keymap("<leader>fq", "<cmd>:q!<CR>", "Quit!")
 
 keymap("<leader>ot", "<cmd>NvimTreeToggle<CR>", "Toggle NvimTree")
 
@@ -28,9 +28,4 @@ keymap("<leader>ot", "<cmd>NvimTreeToggle<CR>", "Toggle NvimTree")
 keymap("<leader>ol", "<cmd>:Lazy<CR>", "Lazy")
 keymap("<leader>om", "<cmd>:Mason<CR>", "Mason")
 
---lsp
-keymap('<leader>lr', vim.lsp.buf.rename, "Rename Symbol")
-keymap('<leader>lc', vim.lsp.buf.code_action, "Code Action")
-keymap('<leader>ld', vim.lsp.buf.definition, "Goto Symbol Definition")
-keymap('<leader>lt', require('telescope.builtin').lsp_references, "Fuzzy Find Symbol References")
-keymap('<leader>lk', vim.lsp.buf.hover, "Show Documentation")
+--lsp binds in lspconfig.lua
