@@ -12,6 +12,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+	"MunifTanjim/nui.nvim",
+	"rcarriga/nvim-notify",
 	"hrsh7th/nvim-cmp",
 	"hrsh7th/cmp-nvim-lsp",
 	"nvim-tree/nvim-tree.lua",
