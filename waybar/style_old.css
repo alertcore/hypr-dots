@@ -6,22 +6,20 @@
   padding: 0;
 }
 #waybar {
-  background: rgba(50, 50, 50, 0.5);
-  font-size: 19px;
+  background: transparent;
+  font-size: 20px;
   font-family: "FiraCode Nerd Font";
-  border-radius: 3px;
 }
 
 #workspaces button {
   padding: 0 5px;
-  color: #ffffff;
-  padding-left: 0px;
-  padding-bottom: 3px;
-  font-size: 23px;
-}
-
-#workspaces button.active {
   color: #eeeeef;
+  padding-left: 0px;
+}
+/* Fix: active workspace doesn't show up */
+/* #workspaces button.focused { */
+#workspaces button.active {
+  color: #929db1;
 }
 
 #custom-powermenu,
@@ -36,19 +34,11 @@
 #battery,
 #network,
 #tray {
-  padding: 4px 6px;
-  background-color: transparent;
+  padding: 4px 8px;
+  background-color: #303643;
+  border-radius: 10px;
   margin-top: 2px;
-  margin-bottom: 0px;
-}
-
-#battery,
-#pulseaudio {
-	margin-bottom: 3px;
-}
-
-#custom-updates {
-  margin-bottom: 3px;
+  margin-bottom: 7px;
 }
 
 #window {
@@ -58,14 +48,14 @@
 }
 
 #tray {
-  color: #dddddd;
+  color: #929db1;
   margin-left: 4px;
   margin-right: 4px;
-  margin-bottom: 2px;
+  margin-bottom: 7px;
 }
 
 #custom-updates {
-  color: #dddddd;
+  color: #929db1;
   margin-left: 6px;
 }
 
@@ -84,7 +74,7 @@
 
 #pulseaudio {
   color: #dddddd;
-  padding-right: 6px;
+  padding-right: 14px;
   margin-left: 4px;
 }
 
@@ -111,6 +101,6 @@
 
 #clock {
   color: #dddddd;
-  margin-left: 0px;
+  margin-left: 8px;
   margin-right: 6px;
 }

@@ -8,6 +8,7 @@ require('mason-lspconfig').setup({
 		'pyright',
 		'jdtls',
 		'gopls',
+		'html',
 	}
 })
 
@@ -37,6 +38,10 @@ require('lspconfig').jdtls.setup {
 	on_attach = on_attach,
 }
 require('lspconfig').gopls.setup {
+	capabilities = capabilities,
+	on_attach = on_attach,
+}
+require('lspconfig').html.setup {
 	capabilities = capabilities,
 	on_attach = on_attach,
 }

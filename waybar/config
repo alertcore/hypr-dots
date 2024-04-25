@@ -5,6 +5,7 @@
     "modules-left": [
       "clock",
       "hyprland/workspaces",
+      "custom/updates"
       ],
     "modules-center": [
       "hyprland/window",
@@ -13,7 +14,6 @@
       "tray",
       "battery",
       "pulseaudio",
-      "custom/powermenu",
     ],
     "tray": {
       "icon-size": 24,
@@ -23,11 +23,9 @@
       "format": "{}",
       "rewrite": {
           "(\\d\\. )?(.*) - Chromium": "<span color=\"#4285F4\"></span>  $2 ",
-          "nvim (.*)": "<span color=\"#57A143\"></span>  $1",
-          "nvim": "<span color=\"#57A143\">  Neovim</span> ",
+          "nvim (.*)": "<span color=\"#ffffff\"></span> $1",
+          "nv (.*)": "<span color=\"#ffffff\"></span> $1",
           "ranger(.*)": "<span color=\"#ffffff\"></span>  $1",
-          "kitty (.*)": "<span color=\"#ffffff\"></span>  $1",
-          "Search(.*)": "<span color=\"#a855f7\"></span>  Search$1",
 	  
       },
       "separate-outputs": false
@@ -52,18 +50,18 @@
     "hyprland/workspaces": {
       "format": "{icon}",
       "format-icons": {
-        "1": "󰲠",
-        "2": "󰲢",
-        "3": "󰲤",
-        "4": "󰲦",
-        "5": "󰲨",
-        "6": "󰲪",
-        "7": "󰲬",
-        "8": "󰲮",
-        "9": "󰲰",
-        "10": "󰿬",
+        "1": "󰎡",
+        "2": "󰎤",
+        "3": "󰎧",
+        "4": "󰎪",
+        "5": "󰎭",
+        "6": "󰎱",
+        "7": "󰎳",
+        "8": "󰎶",
+        "9": "󰎹",
+        "10": "󰎼",
         "-99": "",
-        "active": "",
+        "active": "󰧖",
         "default": ""
       }
     },
@@ -94,23 +92,23 @@
       "on-click": "exec wlogout -p layer-shell",
     },
     "custom/updates": {
-      "format": "<span color=\"#929db1\"></span> {}",
+      "format": "<span color=\"#dddddd\"></span> {}",
       "tooltip": false,
-      "interval": 3600,
+      "interval": 4,
       "exec": "exec $HOME/.config/waybar/checkupdate.sh",
       "on-click": "exec $HOME/.config/waybar/checkupdate.sh"
     },
     "pulseaudio": {
-      "format": "{volume}% {icon}",
-      "format-bluetooth": "{volume}% {icon}",
+      "format": "{icon} {volume}%",
+      "format-bluetooth": "{icon} {volume}% @ ",
       "format-muted": "",
       "format-icons": {
-          "headphone": " ",
-          "hands-free": " ",
-          "headset": " ",
-          "phone": " ",
-          "portable": " ",
-          "car": " ",
+          "headphone": "  ",
+          "hands-free": "",
+          "headset": "",
+          "phone": "",
+          "portable": "",
+          "car": "",
           "default": ["", ""]
       },
       "scroll-step": 1,

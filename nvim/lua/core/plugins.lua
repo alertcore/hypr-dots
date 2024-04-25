@@ -27,6 +27,13 @@ require("lazy").setup({
 	"saadparwaiz1/cmp_luasnip",
 	"rafamadriz/friendly-snippets",
 
+ 	{
+		'folke/todo-comments.nvim',
+		event = 'VimEnter',
+		dependencies = { 'nvim-lua/plenary.nvim' },
+		opts = { signs = false }
+	},
+
 	{
     		'nvim-telescope/telescope.nvim',
     		event = 'VimEnter',
