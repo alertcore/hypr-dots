@@ -1,5 +1,5 @@
 format = """
-[󰣇](#41d2fa) $battery$username in $directory$all$character[-> ](bold)"""
+$character$directory[> ](bold)"""
 
 [battery]
 full_symbol = ''
