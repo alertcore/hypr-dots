@@ -1,9 +1,11 @@
 update = require("updateList")
 
-updateList()
+update()
+
+local homeDir = os.getenv("HOME")
 
 function randPaper()
-	local file = io.open("/home/corn/wallpaper/script/list.txt", "r")
+	local file = io.open(homeDir .. "/wallpaper/script/list.txt", "r")
 	totalList = {}
 	for line in file:lines() do
 		table.insert(totalList, line);
@@ -27,12 +29,12 @@ end
 
 local selected = randPaper()
 
-local last = io.open("/home/corn/wallpaper/script/last.txt", "r")
+local last = io.open(homeDir .. "/wallpaper/script/last.txt", "r")
   local lastImageUsed = last:read("*all")
 last:close()
 
 function updateLast()
-  local last = io.open("/home/corn/wallpaper/script/last.txt", "w")
+  local last = io.open(homeDir .. "/wallpaper/script/last.txt", "w")
   print("image " .. selected .. " selected, writing to memory")
     last:write(selected)
     last:close()
@@ -51,4 +53,4 @@ end
 
 print("selected image (" .. selected .. ") passed redundancy check, passing to swww")
 
-os.execute("swww img /home/corn/wallpaper/" .. selected .. " --transition-type center --transition-step 180")
+os.execute("swww img " .. homeDir .. "/wallpaper/" .. selected .. " --transition-type center --transition-step 180")
