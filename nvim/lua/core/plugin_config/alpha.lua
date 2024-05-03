@@ -23,7 +23,7 @@ dashboard.section.buttons.val = {
     dashboard.button( "f", "󰍉  > Find file", "<cmd>Telescope find_files<CR>"),
     dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
     dashboard.button( "s", "  > Settings" , ":cd $XDG_CONFIG_HOME/nvim | NvimTreeToggle<CR>"),
-    dashboard.button( "q", " > Quit NVIM", ":qa<CR>"),
+    dashboard.button( "q", "  > Quit NVIM", ":qa<CR>"),
 }
 
 alpha.setup(dashboard.opts)
