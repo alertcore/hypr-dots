@@ -1,0 +1,696 @@
+e
+e | fzf
+.local/share/fish/fish_history 
+z .local/share/fish/fish_history
+z .local/share/fish/
+bat fish_history
+rg ssh fish_history
+e
+alias
+run-hep
+kitten edit-in-kitty
+kitten edit-in-kitty a
+alas
+alias
+l
+3
+e
+fortune
+zz
+fortune
+. $ZDOTDIR/.zshrc
+find ~ | rg zsh-ing
+z .antigen/bundles
+e
+rm -rf *
+ing gnu.org
+nvim
+nvim
+z ~/.config/nvim/lua/core/opts.lua
+z ~/.config/nvim/lua/core/
+vim opts.lua
+nvim
+nvim
+nvim
+nvim
+nvim
+e dot
+z dot
+e
+nvim updateList.lua
+z conf
+z nvim
+nvim 
+e nv
+z nv
+nvim 
+nvim 
+nvim
+nvim
+nvim
+nvim
+nvim
+zz
+paru -Ss neorg
+yay neorg
+cd ~/.config
+nvim nvim nvim/init.lua nvim/lazy-lock.json nvim/.luarc.json nvim/lua nvim/lua/core nvim/lua/core/keymaps.lua nvim/lua/core/opts.lua 
+nvim nvim/lua/core/plugins.lua 
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+z nv
+e
+nvim 
+nvim
+nvim
+nvim
+z nv
+nvim 
+nvim 
+nvim --version
+luarocks install pathlib
+sudo luarocks install pathlib
+sudo luarocks install pathlib --check-lua-verions
+sudo luarocks install pathlib --check-lua-versions
+nvim --version
+sudo lurocks install lua-path
+fuck
+sudo luarocks install lua-path
+paru nvim
+paru neovim
+bob
+bob ls
+bob help
+bob update stable
+bob install
+bob install 1
+bob install "1"
+bob install latest
+z ~/.local/share/bob
+e
+e v0.9.5
+z v0.9.5
+z nvim-linux64
+e
+z bin
+e
+nvim
+./nvim
+z ..
+..
+..
+..
+..
+..
+z ..
+z ..
+z ..
+z ..
+ z..
+bob uninstall latest
+bob uninstall 0.9.5
+bob uninstall "0.9.5"
+bob uninstall "v0.9.5"
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+luajit
+luajit --version
+luajit --v
+luajit -v
+paru luajit
+lua -v
+yay lua
+zz
+luajit -v
+exit
+z nvim
+e
+nvim
+nvim
+z nvim
+nvim
+nvim
+uname
+uname -a
+uname
+tldr uname
+uname --operating-system
+nvim
+z nv
+e
+z lua/core
+e
+vim plugins.lua
+nvim
+nvim
+e
+e | rg local
+rg | grep local
+e | grep local
+z .local
+z share/nvim/lazy
+e
+z luarocks.nvim
+e .rocks
+e ..
+z ..
+e
+sudo chmod o+w luarocks.nvim
+e
+sudo chmod o-w luarocks.nvim
+e
+nvim
+nvim
+z nvim
+z
+z nvim
+e
+nvim
+yay
+nvim
+nvim
+z School/English
+e
+mkdir Notes
+z n
+nvim 
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+z n
+nvim
+nvim
+cmus
+zz
+inconsolata
+nvim
+zz
+yay hack
+yay hack font
+z nvi
+nvim
+z nv
+nvim
+z ~/.config/kitty
+e
+nvim kitty
+nvim kitty.conf
+nvim
+z hacking-session/python 
+e
+e --tree
+e
+e -all
+a
+cls
+clear
+e
+e --tree
+z pyCheat
+nvim digits.txt
+nvim main.py
+e nv
+z nv
+nvim 
+z waybar
+nvim config
+z nv
+nvim config
+z wa
+nvim config
+zz -d
+yay zed
+pkill keycast_prod
+zz
+yay keycast
+e downloads
+z down
+z downloads
+z ~/Downloads
+e
+./keycast_prod
+chmod +x keycast_prod
+./keycast_prod
+rm keycast_prod
+zz
+nvim
+pkill waybar
+waybar
+waybar
+yay
+yay neofetch
+yay pywall
+zz
+pywal
+wal
+wal -b
+wal -b black
+wal -b /home/corn/wallpaper/macos_night.jpg 
+wal --theme 
+wal 
+wal -b
+wal -b asd
+wal -i /home/corn/wallpaper/mojave_night.jpg 
+wal -i /home/corn/wallpaper/traveller.png 
+neofetch
+zz
+false
+false
+true
+z c
+nvim starship.toml
+false
+zz -d
+inconsolata
+z zsh
+e
+nvim .zshistory
+z
+nitch
+nitch
+neofetch
+neofetch
+neofetch
+nitch
+which neofetch
+nvim /usr/bin/neofetch
+zz
+uwufetch
+uwufetch
+uwufetch
+yay -R uwufetch
+zz
+zz -d
+zz -d
+zz 
+yay manim
+paru cython
+paru -R cython
+paru -R cython0
+paru -R python-tinyae
+paru -R python-tinyaes
+paru -R cython0
+paru cython
+paru cython
+yay -S manim-git
+yay -S manim-git
+z
+cd
+pwd
+cd
+cd .config/
+l
+pwd
+ls
+cd ..
+sh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+zsh
+e
+z Desktop
+e
+e
+e
+z
+e
+z conf
+e | rg starship
+e | grep starship
+bash
+bash
+bash
+cmatrix
+cmatrix
+zsh
+help
+h
+zz -h
+zz -R
+nvim
+ing
+ing gnu.org
+ing polishbox.pl
+ing boxhunt.pl
+ing boxhunt.pl:25565
+ing boxhunt.pl -p 25565
+ping boxhunt.pl
+ping boxhunt.pl -p 25565
+tldr ping
+ping -i 0.1 polishbox.pl
+ping -i 0 polishbox.pl
+ping -i 0.002 polishbox.pl
+ping -i 0.001 polishbox.pl
+ping -i 0.001 polishbox.pl
+ping -i 0.002 polishbox.pl
+ping -i 0.002 boxhunt.pl
+ing boxhunt.pl -i 25565
+ing -i 0.002 boxhunt.pl
+ing boxhunt.pl -i 0.002
+ing boxhunt.pl
+false
+false
+z c
+nvim starship.toml
+z sb
+bat ma
+bat main.py
+bat main.py
+bat main.py
+z sb
+bat main.py
+z de
+z dot
+e
+bat README.md
+z sb
+bat main.py
+z k
+z ki
+e
+nvim kitty
+nvim kitty.conf
+brightnessctl
+brightnessctl --set
+brightnessctl --set 1
+brightnessctl set
+brightnessctl set 1
+brightnessctl set 2
+brightnessctl set 10
+hyprshot 
+hyprshot output --clipboard-only
+hyprshot
+yay
+z c
+nvim starship.toml
+zz
+zz -d 
+yay -S powershell
+source activate
+z man
+e
+nvim main.py
+z ha
+z hac
+z hacking
+z python
+e
+python -v
+l
+e
+venv
+python -m venv manim
+z manim
+e
+z bin
+e
+./activate
+bash activate
+nvim activate
+bash
+e
+./pip install manim
+manim
+nitch
+nitch
+nic
+pkill Discord
+yay -R obsidian
+yay -S obsidian
+yay -R obsidian
+pkill Discord
+l
+g
+e
+zz
+jp2a
+z de
+jp2a --colors image.png
+zz
+linux_logo
+yay -R linux_logo
+zz -d
+e
+rm -quit
+rm '-quit
+rm '-quit'
+rm "-quit"
+rm ./-quiT"
+rm ./-quit
+e
+e .antigen
+ping -i 0.002 boxhunt.pl
+ing boxhunt.pl
+z hack
+z py
+e
+z manim
+z
+e
+z back
+z man
+e
+nivm main.py
+fuck
+mvim /bin/sh +1 && nivm main.py
+fuck
+nivm main.py
+fuck
+nvim main.py
+vi
+zz -d vi
+paru vi
+yay -S vi
+yay -S vim
+vi
+z zsh
+nvim .zshrc
+z desktop
+swww img misurina-sunset.jpg 
+rm misurina-sunset.jpg
+z wallpaper
+e
+swww img catalina_night.png
+pfetch
+yay
+yay -R pfetch
+yay -R pfetch
+zz
+zz
+zz
+rbw
+rbw config
+rbw config show
+rbw
+rbw unlock
+rbw register
+yay -R rbw
+zz
+zz -d
+pkill lua
+brightnessctl set 10
+brightnessctl 
+brightnessctl 
+brightnessctl 
+brightnessctl 
+brightnessctl 
+brightnessctl 
+z de
+nvim a.lua
+lua a.lua
+rm a.lua
+bang
+as
+if\
+true\
+fi
+if\
+true\
+\
+end
+if\
+true\
+\
+
+if
+if true\
+do
+if true\
+do nothing
+if true\
+do z
+if true\
+
+z man
+nvim main.py
+./bin/pip install manim
+nvim main.py
+./bin/python main.py
+nvim main.py
+manim
+e --tree
+e --tree | rg manim
+e --tree | b
+e --tree | bat
+./bin/manim main.py video -pqh
+nvim main.py
+./bin/manim main.py video -pqh
+./bin/manim main.py video -pqh
+nvim main.py
+./bin/manim main.py video -pqh
+./bin/manim main.py video -pqh
+./bin/manim main.py video -pqh
+nvim main.py
+./bin/manim main.py video -pqh
+nvim main.py
+./bin/manim main.py video -pqh
+nvim main.py
+./bin/manim main.py video -pqh
+nvim main.py
+./bin/manim main.py video -pqh
+nvim main.py
+./bin/manim main.py video -pqh
+nvim main.py
+Hyprland
+killall waybar
+killall waybar
+YAY
+yay
+stderr
+zz -d
+yay -Fy stderr
+zz -p
+yay curl
+yay -Ss words
+py
+z /usr/share/dict
+z /usr/share/
+e | rg dict
+e | rg dic
+dict
+find /usr -name words
+zz
+z dicts
+z dict
+e
+nvim usa
+rg eutrophic usa
+rg eutrophication usa
+cp usa ~/hacking-session/python
+z pyt
+e
+python -m venv wordle
+z wordle
+e
+mkdir src
+z src
+mkdir assets
+z assets
+cp ../../../usa .
+rm ../../../usa
+e
+bat usa
+wc -l usa
+cd ..
+nvim main.py
+rg 'e....' assets/usa
+rg '.e...' assets/usa
+rg '.e...' -l 5assets/usa
+rg '.e...' -l 5 assets/usa
+rg -l 5'.e...' assets/usa
+rg -l 5 '.e...' assets/usa
+rg '.e...' assets/usa -l 5
+rg '.e...' assets/usa -1 5
+tldr rg
+grep '$.e...$' assets/usa
+grep '^.e...$' assets/usa
+grep '^.e...$' assets/usa
+nvim assets/usa 
+grep '^.e...$' assets/usa
+grep '^.e...$' assets/usa | wc -l
+nvim assets/usa 
+grep '^.e...$' assets/usa | wc -l
+grep '^.e...$' assets/usa | wc -l
+grep '^.e...$' assets/usa
+grep '^.e...$' assets/usa
+grep '.e...' assets/usa
+grep '.e...' assets/usa | wc -l
+grep '^.e...$' assets/usa | wc -l
+nvim main.py
+python main.py
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+zz
+nvim
+vi
+nvim
+nvim
+yay
+toilet nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+z nv
+nvim
+nvim .
+jobs
+fg %nvim
+fg %nvim
+nvim
+nvim
+nvim
+nvim
+nvi
+nvim
+nvim
+nvim
+nvim
+toilet
+nvim
+nvim
+nvim

@@ -26,28 +26,52 @@ require("lazy").setup({
 	"L3MON4D3/LuaSnip",
 	"saadparwaiz1/cmp_luasnip",
 	"rafamadriz/friendly-snippets",
+	"nvim-neorg/neorg-dirman",
+   "goolord/alpha-nvim",
 
- 	{
-		'folke/todo-comments.nvim',
-		event = 'VimEnter',
-		dependencies = { 'nvim-lua/plenary.nvim' },
-		opts = { signs = false }
-	},
+   {
+      "folke/noice.nvim",
+      event = "VeryLazy",
+   },
 
-	{
-    		'nvim-telescope/telescope.nvim',
-    		event = 'VimEnter',
-    		branch = '0.1.x',
-    		dependencies = {
-      		'nvim-lua/plenary.nvim',
-			}
-	},
+   {
+      "nvim-neorg/neorg",
+      dependencies = { "vhyrro/luarocks.nvim", "nvim-lua/plenary.nvim", "nvim-neorg/neorg-telescope", "nvim-neorg/neorg-dirman", "pysan3/pathlib.nvim" },
+   },
 
-	{
-    		'folke/which-key.nvim',
-    		event = 'VimEnter',
-		config = function()
-			require('which-key').setup()
-		end
-	},
+   {
+      "nvim-treesitter/nvim-treesitter",
+      build = ":TSUpdate"
+   },
+
+   {
+      "vhyrro/luarocks.nvim",
+      priority = 1000,
+      config = true,
+   },
+
+   {
+      "nvim-neorg/neorg",
+      dependencies = { "luarocks.nvim" },
+      lazy = false, -- Disable lazy loading as some `lazy.nvim` distributions set `lazy = true` by default
+      version = "*", -- Pin Neorg to the latest stable release
+      config = true,
+   },
+
+   {
+      'nvim-telescope/telescope.nvim',
+      event = 'VimEnter',
+      branch = '0.1.x',
+      dependencies = {
+         'nvim-lua/plenary.nvim',
+      }
+   },
+
+   {
+      'folke/which-key.nvim',
+      event = 'VimEnter', 
+      config = function()
+         require('which-key').setup()
+      end
+   },
 })
