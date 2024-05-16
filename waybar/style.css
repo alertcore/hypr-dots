@@ -36,7 +36,7 @@
 #battery,
 #network,
 #tray {
-  padding: 4px 6px;
+  padding: 2px 4px;
   background-color: transparent;
   margin-top: 2px;
   margin-bottom: 0px;
@@ -60,7 +60,7 @@
 #tray {
   color: #dddddd;
   margin-left: 4px;
-  margin-right: 4px;
+  margin-right: 2px;
   margin-bottom: 2px;
 }
 
@@ -84,8 +84,8 @@
 
 #pulseaudio {
   color: #dddddd;
-  padding-right: 6px;
-  margin-left: 4px;
+  padding-right: 4px;
+  margin-left: 0px;
 }
 
 #battery {
